@@ -93,7 +93,7 @@ TCGA-PAAD Input (RNA-seq + Clinical)
   04_survival.R         →  Kaplan-Meier · Log-rank · Risk Groups
          │
          ▼
-  05_combined_figures.R →  6-panel publication figure (300 DPI)
+  05_visualization.R →  6-panel publication figure (300 DPI)
 ```
 
 ---
@@ -116,7 +116,7 @@ rnaseq-ml-biomarker-pdac/
 │   ├── 02_deseq2.R
 │   ├── 03_ml_classifier.R
 │   ├── 04_survival.R
-│   └── 05_combined_figures.R
+│   └── 05_visualization.R
 │
 ├── results/
 │   ├── deg/
@@ -133,7 +133,7 @@ rnaseq-ml-biomarker-pdac/
 │       ├── heatmap_top20_v2.png
 │       ├── kaplan_meier_svm.png
 │       ├── kaplan_meier_SYT3.png
-│       └── combined_panel.png
+│       └── visualization.png
 │
 ├── README.md
 └── .gitignore
@@ -172,7 +172,7 @@ source("scripts/01_preprocess.R")
 source("scripts/02_deseq2.R")
 source("scripts/03_ml_classifier.R")
 source("scripts/04_survival.R")
-source("scripts/05_combined_figures.R")
+source("scripts/05_visualization.R")
 ```
 
 ---
