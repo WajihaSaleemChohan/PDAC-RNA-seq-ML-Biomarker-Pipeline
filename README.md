@@ -133,7 +133,7 @@ rnaseq-ml-biomarker-pdac/
 │       ├── heatmap_top20_v2.png
 │       ├── kaplan_meier_svm.png
 │       ├── kaplan_meier_SYT3.png
-│       └── visualization.png
+│       └── combined_panel.png
 │
 ├── README.md
 └── .gitignore
